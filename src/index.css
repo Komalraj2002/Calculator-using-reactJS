@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+ text-align: center;
+ margin: auto;
+ padding:auto;
+ width:500px;
+ height:550px;
+ background-color: rgb(205, 230, 240);
+ margin-top: 10px;
+}
+.container h1{
+  text-align:center;
+  margin-top:10px;
+  padding-top:20px ;
+  font-weight: bold;
+  font-size:25px;
+}
+
+.container input{
+  padding: 11px;
+  margin-top: 7px;
+  font-size: 20px;
+  border-radius: 3px;
+  width: 90%;
+  height: 10%;
+}
+
+.container button{
+width: 80px;
+height: 50px;
+margin: 15px;
+/* padding:10px; */
+background-color: white;
+font-size:23px;
+border:white 1.5px solid;
+text-align: center;
+justify-content: center;
+cursor:pointer;
+}
+
+
+
